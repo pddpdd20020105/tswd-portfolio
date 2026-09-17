@@ -67,8 +67,6 @@ I considered adding a map for geographic context, but decided not to include it 
 
 ### Final Visualization
 
-### Final Visualization
-
 <div class="tableauPlaceholder" style="position: relative;">
   <a href="https://public.tableau.com/views/U_S_ServicesTradeBalanceswithFreeTradePartners/Sheet1">
     <img
