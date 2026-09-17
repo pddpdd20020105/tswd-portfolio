@@ -64,6 +64,8 @@ For the final redesign, I used a red-to-green color scale to distinguish service
 
 I considered adding a map for geographic context, but decided not to include it because it would add complexity without improving the main comparison between countries.
 
+The final visualization shows that the U.S. had a services trade surplus with most of its free trade partners in the dataset. Canada had the largest services trade surplus at $34.9 billion, followed by Singapore at $27.2 billion and Australia at $16.0 billion. Only a few partners showed negative services trade balances, with the CAFTA-DR countries having the largest deficit at $6.3 billion.
+
 
 ### Final Visualization
 
