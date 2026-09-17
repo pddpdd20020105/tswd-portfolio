@@ -24,6 +24,12 @@ However, the biggest issue is readability. The circular layout makes it difficul
 
 Based on this critique, I decided that my redesign should focus on making comparisons between countries easier. I plan to use a simpler layout, clearer labels, and fewer unnecessary visual elements.
 
+### Reflection on the Critique Method
+
+Stephen Few's Data Visualization Effectiveness Profile helped me evaluate the visualization from different perspectives instead of simply deciding whether I liked it. For example, I found the original visualization strong in aesthetics and engagement because the circular layout, colors, and country flags attract attention. However, when considering perceptibility and intuitiveness, I found that the same design makes it harder to compare values across countries.
+
+Compared with the Good Charts method, I found this profile useful because it breaks a visualization into more specific qualities. However, some of the ratings still felt subjective. A visually engaging design may work well for a general audience even if it is less effective for precise comparisons. This made me realize that the effectiveness of a visualization also depends on its audience and purpose.
+
 ## Step 3: Sketch a Solution
 
 Based on my critique, I created a horizontal bar chart as my initial redesign. I sorted the countries by their services trade balances and added value labels to make comparisons easier.
