@@ -58,7 +58,7 @@ For the final redesign, I used a red-to-green color scale to distinguish service
 
 I considered adding a map for geographic context, but decided not to include it because it would add complexity without improving the main comparison between countries.
 
-### Final Visualization
+
 ### Final Visualization
 
 <div class="tableauPlaceholder" id="viz1789667969359" style="position: relative;">
