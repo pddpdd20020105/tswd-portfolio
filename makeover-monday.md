@@ -23,3 +23,13 @@ I evaluated the original visualization using Stephen Few's Data Visualization Ef
 However, the biggest issue is readability. The circular layout makes it difficult to quickly compare the trade balances of different countries. There are also many visual elements competing for attention, which makes the chart feel somewhat crowded. While the visualization is effective at attracting attention and communicating the general idea, it is less effective for making detailed comparisons.
 
 Based on this critique, I decided that my redesign should focus on making comparisons between countries easier. I plan to use a simpler layout, clearer labels, and fewer unnecessary visual elements.
+
+## Step 3: Sketch a Solution
+
+Based on my critique, I created a horizontal bar chart as my initial redesign. I sorted the countries by their services trade balances and added value labels to make comparisons easier.
+
+The goal of this draft was to simplify the original circular design and make the differences between countries easier to see.
+
+### Initial Redesign
+
+<img width="997" height="238" alt="Initial redesign" src="https://github.com/user-attachments/assets/9daf17dc-8acf-411c-87e1-a3584c7cc793" />
