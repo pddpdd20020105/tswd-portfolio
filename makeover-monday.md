@@ -15,3 +15,11 @@ I selected this visualization because the circular design is visually interestin
 **Source:** [MakeoverMonday – America's Services Trade Balances](https://makeovermonday.vercel.app/dataset/america-s-services-trade-balances-with-its-free-trade-partners)
 
 **Data:** The original dataset was provided as an Excel file and includes trade balance data for goods, services, and goods and services combined.
+
+## Step 2: Critique the Visualization
+
+I evaluated the original visualization using Stephen Few's Data Visualization Effectiveness Profile. Overall, I found the visualization visually engaging and informative. The colors, country flags, labels, and circular design make the visualization attractive and help draw attention to the topic.
+
+However, the biggest issue is readability. The circular layout makes it difficult to quickly compare the trade balances of different countries. There are also many visual elements competing for attention, which makes the chart feel somewhat crowded. While the visualization is effective at attracting attention and communicating the general idea, it is less effective for making detailed comparisons.
+
+Based on this critique, I decided that my redesign should focus on making comparisons between countries easier. I plan to use a simpler layout, clearer labels, and fewer unnecessary visual elements.
