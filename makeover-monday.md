@@ -80,3 +80,7 @@ The final visualization shows that the U.S. had a services trade surplus with mo
 </div>
 
 [View the interactive visualization on Tableau Public](https://public.tableau.com/views/U_S_ServicesTradeBalanceswithFreeTradePartners/Sheet1)
+
+## AI Acknowledgement
+
+I used Copilot to help brainstorm ideas for improving the visualization, organize parts of my written explanation, and troubleshoot Tableau and GitHub formatting. I reviewed and revised the suggestions before including them in my work. The final visualization was created by me in Tableau using the original dataset.
