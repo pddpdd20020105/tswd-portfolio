@@ -33,3 +33,19 @@ The goal of this draft was to simplify the original circular design and make the
 ### Initial Redesign
 
 <img width="997" height="238" alt="Initial redesign" src="https://github.com/user-attachments/assets/9daf17dc-8acf-411c-87e1-a3584c7cc793" />
+
+## Step 4: Test the Solution
+
+I shared my initial redesign with three graduate students and asked them to review the visualization without much explanation. Overall, they found the horizontal bar chart easier to read and compare than the original circular design.
+
+| Participant | What worked? | What didn't work? | What questions came up? | What new inspiration arose? |
+| --- | --- | --- | --- | --- |
+| Graduate student, MISM-BIDA program | The bar chart makes the values easy to compare. | The chart could provide more context about what the data means. | What is the main takeaway from the visualization? | Add a short explanation to provide more context. |
+| Graduate student, MISM program | The horizontal layout and data labels are clear and easy to read. | The chart looks a little plain with only one color. | Could color highlight important countries or values? | Use color to highlight important information. |
+| Graduate student, MSPPM program | The differences between countries are easy to see. | The chart does not provide much geographic context. | Would a map help provide geographic context? | Consider adding a small map to provide geographic context. |
+
+### What I Learned
+
+The feedback showed that the simpler bar chart improved readability, which was the main goal of my redesign. However, simplifying the original visualization also removed some of its visual interest and context.
+
+For my final redesign, I plan to keep the horizontal bar chart, but add more context about what the values represent and use color more intentionally. I will also explore whether a map could add useful geographic context without making the visualization too complicated.
