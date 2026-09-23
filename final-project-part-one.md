@@ -1,42 +1,81 @@
 | [home page](https://pddpdd20020105.github.io/tswd-portfolio/) | [data viz examples](https://pddpdd20020105.github.io/tswd-portfolio/dataviz-examples) | [critique by design](https://pddpdd20020105.github.io/tswd-portfolio/critique-by-design) | [MakeoverMonday](https://pddpdd20020105.github.io/tswd-portfolio/makeover-monday) | [final project I](https://pddpdd20020105.github.io/tswd-portfolio/final-project-part-one) | [final project II](https://pddpdd20020105.github.io/tswd-portfolio/final-project-part-two) | [final project III](https://pddpdd20020105.github.io/tswd-portfolio/final-project-part-three) |
 
+# Final Project Part I: When Do People Visit America's National Parks?
 
-> Important note: this template includes major elements of Part I, but the instructions on Canvas are the authoritative source.  Make sure to read through the assignment page and review the rubric to confirm you have everything you need before submitting.  When done, delete these instructions before submitting.
+## Outline
 
-# Outline
-> Include a high-level summary of your project.  This should be a couple paragraphs that describe what you're interested in showing with your final project. 
- 
-Text here...
+### Project summary
 
-> A project structure that outlines the major elements of your story.  Your Good Charts text talks about story structure in Chapter 8 - you should describe what you hope to achieve.  Make sure the outline is detailed enough that we can see how you anticipate your story unfolding.  You can incorporate your Story Arc from the in-class exercise along with your user stories and one sentence summary to make the topic even more clear. 
+I enjoy traveling, and one question I often have when planning a trip is when to visit. Summer seems like the obvious season for a national park trip, but does every park actually receive the most visits in summer? I want to use National Park Service (NPS) data to explore how visits change throughout the year and how those patterns differ between parks.
 
-Text here...
+My intended audience is people planning a national park trip. The project will begin with the overall national pattern, then compare parks with contrasting peak months. Finally, readers will be able to explore the data for parks that interest them. My goal is to help readers use visitation patterns as one clue when choosing travel dates. Fewer recorded visits do not necessarily mean better weather, open roads, or fewer people at a particular attraction.
+
+### Project structure and story
+
+**Opening — The travel-planning question.** The page will begin by asking: *Is summer the busiest season at every national park?* This gives readers a practical reason to care about monthly visitation.
+
+**Context — The national pattern.** A chart of monthly NPS recreation visits will show how visits vary across the United States during 2024. This establishes the pattern that readers might expect to see at every park.
+
+**Surprise — Four parks, different seasons.** I will then compare Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone. My initial analysis of the 2024 data shows that their highest-visit months were August, October, March, and July, respectively. A chart showing each month's share of a park's annual visits will make these different seasonal patterns comparable.
+
+**Exploration — What about a park I want to visit?** The final interactive section will allow readers to select a park and examine its monthly visitation pattern. This turns the story into a starting point for their own travel planning.
+
+**Takeaway.** There is no single peak season that describes every national park. Readers should use historical visitation alongside current information about weather, access, and park conditions.
+
+**One-sentence message:** National park visitation is seasonal, but the season depends on the park.
 
 ## Initial sketches
-> Post images of your anticipated data visualizations (sketches are fine). They should mimic aspects of your outline, and include elements of your story.  
 
-Text here...
+The following sketches show the proposed order and purpose of the main sections. These are plans for the final story, so their layout and visual details may change.
 
-# The data
-> A couple of paragraphs that document your data source(s), and an explanation of how you plan on using your data. 
+| Story section | Planned page element | What the reader should learn |
+|---|---|---|
+| Opening | Large question: **“Is summer the busiest season at every national park?”** followed by a short travel-planning introduction | Why the question matters |
+| National context | Monthly line chart: **month → total NPS recreation visits in 2024** | The overall seasonal pattern |
+| Four-park comparison | Four colored lines: **month → share of each park's annual visits** | Peak months differ across parks |
+| Reader exploration | Interactive park selector with a monthly visitation chart | The pattern for a park the reader chooses |
+| Closing | Short takeaway and a reminder to check current park conditions | How to interpret the data for a trip |
 
-Text here...
+### Working prototype: four-park comparison
 
-> A link to the publicly-accessible datasets you plan on using, or a link to a copy of the data you've uploaded to your Github repository, Box account or other publicly-accessible location. Using a datasource that is already publicly accessible is highly encouraged.  If you anticipate using a data source other than something that would be publicly available please talk to me first. 
+This is my first Tableau prototype for the comparison section. The vertical axis shows the percentage of each park's 2024 recreation visits that occurred in a given month. Using percentages makes it possible to compare the *shape* of each park's seasonal pattern without the largest park dominating the chart.
+
+<div class='tableauPlaceholder' id='viz1790196827758' style='position: relative'><noscript><a href='https://public.tableau.com/views/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits'><img alt='Monthly share of annual recreation visits at four U.S. national parks, 2024' src='https://public.tableau.com/static/images/Na/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits/1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /><param name='embed_code_version' value='3' /><param name='site_root' value='' /><param name='name' value='NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https://public.tableau.com/static/images/Na/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits/1.png' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
+<script type='text/javascript'>
+    var divElement = document.getElementById('viz1790196827758');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    vizElement.style.width = '100%';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+[Open the interactive prototype on Tableau Public](https://public.tableau.com/views/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits)
+
+## The data
+
+My primary source is the NPS Visitor Use Statistics Data Package. The `Main_Data` CSV has five fields: `UnitCode`, `Year`, `Month`, `Statistic`, and `Value`. For the initial visualizations, I filter `Statistic` to `TRV` (recreation visits) and `Year` to 2024. I then sum visits by month for the national overview. For each park comparison, I divide each month's visits by that park's total visits in 2024.
+
+The copy of `Main_Data` that I downloaded contains data from 1979 through 2024, despite the catalog page being titled “2025.” I am therefore labeling my current analysis as **2024**. I also downloaded `Main_State_Data`, which includes state codes and covers 2016–2024 in my copy. I may use it if a state-level comparison helps the final story, but the current prototype uses `Main_Data`.
+
+NPS defines a recreation visit as a visit, not a count of distinct people. One person can contribute visits on multiple days or at multiple parks. Monthly totals also cannot tell us how crowded a particular trail was on a particular day. I will explain these limitations wherever I discuss what the charts might mean for travel planning.
 
 | Name | URL | Description |
-|------|-----|-------------|
-|      |     |             |
-|      |     |             |
-|      |     |             |
+|---|---|---|
+| NPS Visitor Use Statistics Data Package | https://catalog.data.gov/dataset/nps-visitor-use-statistics-data-package-2025 | Public source of the monthly visitor-use CSV files |
+| NPS Visitor Use Statistics Definitions | https://www.nps.gov/subjects/socialscience/nps-visitor-use-statistics-definitions.htm | Definitions used to interpret recreation visits |
+| Initial Tableau prototype | https://public.tableau.com/views/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits | My first comparison of four parks |
 
-# Method and medium
-> In a few sentences, you should document how you plan on completing your final project. 
+## Method and medium
 
-Text here...
+I plan to create a standalone, interactive story page linked from my GitHub Pages portfolio. I will prepare monthly summaries from the NPS CSV data and use Tableau Public to create the charts. The page will combine short narrative sections with visualizations so readers can follow the national-to-local story before exploring a park themselves. Before making travel decisions, readers should check each park's current conditions on the NPS website.
 
 ## References
-_List any references you used here._
+
+- National Park Service. *NPS Visitor Use Statistics Data Package, 2025*. https://catalog.data.gov/dataset/nps-visitor-use-statistics-data-package-2025
+- National Park Service. *NPS Visitor Use Statistics Definitions*. https://www.nps.gov/subjects/socialscience/nps-visitor-use-statistics-definitions.htm
 
 ## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
+
+I used ChatGPT to brainstorm the topic and story structure, interpret the assignment requirements and NPS data fields, troubleshoot the Tableau chart, and help draft this Part I outline. I checked the chart's patterns against the data and made the final choices about the project.
