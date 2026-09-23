@@ -40,9 +40,17 @@ The following sketches show the proposed order and purpose of the main sections.
 
 This is my first Tableau prototype for the comparison section. The vertical axis shows the percentage of each park's 2024 recreation visits that occurred in a given month. Using percentages makes it possible to compare the *shape* of each park's seasonal pattern without the largest park dominating the chart.
 
+<div class="tableauPlaceholder" style="position: relative;">
+  <a href="https://public.tableau.com/views/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits">
+    <img
+      alt="Monthly share of annual recreation visits at four U.S. national parks, 2024"
+      src="https://public.tableau.com/static/images/Na/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits/1_rss.png"
+      style="border: none; width: 100%;"
+    />
+  </a>
+</div>
 
-
-[Open the interactive prototype on Tableau Public](https://public.tableau.com/views/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits)
+[View the interactive visualization on Tableau Public](https://public.tableau.com/views/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits)
 
 ## The data
 
