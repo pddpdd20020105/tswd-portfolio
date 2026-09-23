@@ -26,31 +26,42 @@ My intended audience is people planning a national park trip. The project will b
 
 ## Initial sketches
 
-The following sketches show the proposed order and purpose of the main sections. These are plans for the final story, so their layout and visual details may change.
+This rough page sketch shows how I plan to guide readers from a travel-planning question to a comparison and then to their own exploration. The boxes represent the planned sections, not the final visual design.
 
-| Story section | Planned page element | What the reader should learn |
-|---|---|---|
-| Opening | Large question: **“Is summer the busiest season at every national park?”** followed by a short travel-planning introduction | Why the question matters |
-| National context | Monthly line chart: **month → total NPS recreation visits in 2024** | The overall seasonal pattern |
-| Four-park comparison | Four colored lines: **month → share of each park's annual visits** | Peak months differ across parks |
-| Reader exploration | Interactive park selector with a monthly visitation chart | The pattern for a park the reader chooses |
-| Closing | Short takeaway and a reminder to check current park conditions | How to interpret the data for a trip |
+<div style="border: 2px dashed #888; padding: 18px; max-width: 720px;">
 
-### Working prototype: four-park comparison
+  <div style="border: 1px solid #aaa; padding: 14px; margin-bottom: 12px;">
+    <strong>1. Opening question</strong>
+    <h3>Is summer the busiest season at every national park?</h3>
+    <p>A short introduction connects the question to planning a trip.</p>
+  </div>
 
-This is my first Tableau prototype for the comparison section. The vertical axis shows the percentage of each park's 2024 recreation visits that occurred in a given month. Using percentages makes it possible to compare the *shape* of each park's seasonal pattern without the largest park dominating the chart.
+  <div style="border: 1px solid #aaa; padding: 14px; margin-bottom: 12px;">
+    <strong>2. National context</strong>
+    <p>[Line chart: month on the horizontal axis; total 2024 recreation visits on the vertical axis]</p>
+    <p>What is the overall seasonal pattern?</p>
+  </div>
 
-<div class="tableauPlaceholder" style="position: relative;">
-  <a href="https://public.tableau.com/views/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits">
-    <img
-      alt="Monthly share of annual recreation visits at four U.S. national parks, 2024"
-      src="https://public.tableau.com/static/images/Na/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits/1_rss.png"
-      style="border: none; width: 100%;"
-    />
-  </a>
+  <div style="border: 1px solid #aaa; padding: 14px; margin-bottom: 12px;">
+    <strong>3. Four parks, different peak months</strong>
+    <p>[Four-line chart: monthly share of annual visits for Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone]</p>
+    <p>Highlight each park's peak month and explain the contrast.</p>
+  </div>
+
+  <div style="border: 1px solid #aaa; padding: 14px; margin-bottom: 12px;">
+    <strong>4. Explore a park</strong>
+    <p>[Select a park ▾]</p>
+    <p>[Monthly visitation chart for the selected park]</p>
+  </div>
+
+  <div style="border: 1px solid #aaa; padding: 14px;">
+    <strong>5. Takeaway</strong>
+    <p>Peak season depends on the park. Check current weather, access, and park conditions before planning a visit.</p>
+  </div>
+
 </div>
 
-[View the interactive visualization on Tableau Public](https://public.tableau.com/views/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits)
+The line chart below is a working prototype for section 3 of this sketch.
 
 ## The data
 
