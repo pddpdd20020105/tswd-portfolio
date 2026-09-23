@@ -40,16 +40,7 @@ The following sketches show the proposed order and purpose of the main sections.
 
 This is my first Tableau prototype for the comparison section. The vertical axis shows the percentage of each park's 2024 recreation visits that occurred in a given month. Using percentages makes it possible to compare the *shape* of each park's seasonal pattern without the largest park dominating the chart.
 
-<div class='tableauPlaceholder' id='viz1790196827758' style='position: relative'><noscript><a href='https://public.tableau.com/views/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits'><img alt='Monthly share of annual recreation visits at four U.S. national parks, 2024' src='https://public.tableau.com/static/images/Na/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits/1_rss.png' style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /><param name='embed_code_version' value='3' /><param name='site_root' value='' /><param name='name' value='NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https://public.tableau.com/static/images/Na/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits/1.png' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>
-<script type='text/javascript'>
-    var divElement = document.getElementById('viz1790196827758');
-    var vizElement = divElement.getElementsByTagName('object')[0];
-    vizElement.style.width = '100%';
-    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-    var scriptElement = document.createElement('script');
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);
-</script>
+
 
 [Open the interactive prototype on Tableau Public](https://public.tableau.com/views/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits)
 
