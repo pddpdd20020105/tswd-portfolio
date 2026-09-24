@@ -78,4 +78,4 @@ I plan to create a standalone, interactive story page linked from my GitHub Page
 
 ## AI acknowledgements
 
-I used ChatGPT to brainstorm the topic and story structure, interpret the assignment requirements and NPS data fields, troubleshoot the Tableau chart, and help draft this Part I outline. I checked the chart's patterns against the data and made the final choices about the project.
+The project idea is my own. I used Copilot to help organize the outline and troubleshoot the Tableau chart. I verified the data and made the final decisions.
