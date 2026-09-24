@@ -14,7 +14,7 @@ My intended audience is people planning a national park trip. The project will b
 
 **Opening — The travel-planning question.** The page will begin by asking: *Is summer the busiest season at every national park?* This gives readers a practical reason to care about monthly visitation.
 
-**Context — The national pattern.** A chart of monthly NPS recreation visits will show how visits vary across the United States during 2024. This establishes the pattern that readers might expect to see at every park.
+**Context — The national pattern.** A chart of monthly recreation visits to U.S. national parks will show how visits vary throughout 2024. This establishes the pattern that readers might expect to see at every park.
 
 **Surprise — Four parks, different seasons.** I will then compare Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone. My initial analysis of the 2024 data shows that their highest-visit months were August, October, March, and July, respectively. A chart showing each month's share of a park's annual visits will make these different seasonal patterns comparable.
 
@@ -26,7 +26,17 @@ My intended audience is people planning a national park trip. The project will b
 
 ## Initial sketches
 
-This rough page sketch shows how I plan to guide readers from a travel-planning question to a comparison and then to their own exploration. The boxes represent the planned sections, not the final visual design.
+The table and rough page layout below show the proposed order and purpose of the main sections. These are plans for the final story, so their layout and visual details may change.
+
+| Story section | Planned page element | What the reader should learn |
+|---|---|---|
+| Opening | Large question: **“Is summer the busiest season at every national park?”** followed by a short travel-planning introduction | Why the question matters |
+| National context | Monthly line chart: **month → total recreation visits to national parks in 2024** | The overall seasonal pattern |
+| Four-park comparison | Four colored lines: **month → share of each park's annual visits** | Peak months differ across parks |
+| Reader exploration | Interactive park selector with a monthly visitation chart | The pattern for a park the reader chooses |
+| Closing | Short takeaway and a reminder to check current park conditions | How to interpret the data for a trip |
+
+### Rough page layout
 
 <div style="border: 2px dashed #888; padding: 18px; max-width: 720px;">
 
@@ -38,19 +48,19 @@ This rough page sketch shows how I plan to guide readers from a travel-planning 
 
   <div style="border: 1px solid #aaa; padding: 14px; margin-bottom: 12px;">
     <strong>2. National context</strong>
-    <p>[Line chart: month on the horizontal axis; total 2024 recreation visits on the vertical axis]</p>
+    <p>[Line chart: month → total 2024 recreation visits to national parks]</p>
     <p>What is the overall seasonal pattern?</p>
   </div>
 
   <div style="border: 1px solid #aaa; padding: 14px; margin-bottom: 12px;">
     <strong>3. Four parks, different peak months</strong>
     <p>[Four-line chart: monthly share of annual visits for Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone]</p>
-    <p>Highlight each park's peak month and explain the contrast.</p>
+    <p>Highlight and explain the different peak months.</p>
   </div>
 
   <div style="border: 1px solid #aaa; padding: 14px; margin-bottom: 12px;">
     <strong>4. Explore a park</strong>
-    <p>[Select a park ▾]</p>
+    <p>[Select a park]</p>
     <p>[Monthly visitation chart for the selected park]</p>
   </div>
 
@@ -61,13 +71,27 @@ This rough page sketch shows how I plan to guide readers from a travel-planning 
 
 </div>
 
-The line chart below is a working prototype for section 3 of this sketch.
+### Working prototype: four-park comparison
+
+This is my first Tableau prototype for the comparison section. The vertical axis shows the percentage of each park's 2024 recreation visits that occurred in a given month. Using percentages makes it possible to compare the *shape* of each park's seasonal pattern without the largest park dominating the chart.
+
+<div class="tableauPlaceholder" style="position: relative;">
+  <a href="https://public.tableau.com/views/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits">
+    <img
+      alt="Monthly share of annual recreation visits at four U.S. national parks, 2024"
+      src="https://public.tableau.com/static/images/Na/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits/1_rss.png"
+      style="border: none; width: 100%;"
+    />
+  </a>
+</div>
+
+[View the interactive visualization on Tableau Public](https://public.tableau.com/views/NationalParkVisitsbyMonth2024/Shareofeachparksannualvisits)
 
 ## The data
 
-My primary source is the NPS Visitor Use Statistics Data Package. The `Main_Data` CSV has five fields: `UnitCode`, `Year`, `Month`, `Statistic`, and `Value`. For the initial visualizations, I filter `Statistic` to `TRV` (recreation visits) and `Year` to 2024. I then sum visits by month for the national overview. For each park comparison, I divide each month's visits by that park's total visits in 2024.
+My primary source is the NPS Visitor Use Statistics Data Package. The `Main_Data` CSV has five fields: `UnitCode`, `Year`, `Month`, `Statistic`, and `Value`. For the initial visualizations, I filter `Statistic` to `TRV` (recreation visits) and `Year` to 2024. For the planned national overview, I will include only units designated as national parks and sum their visits by month. For each park comparison, I divide each month's visits by that park's total visits in 2024.
 
-The copy of `Main_Data` that I downloaded contains data from 1979 through 2024, despite the catalog page being titled “2025.” I am therefore labeling my current analysis as **2024**. I also downloaded `Main_State_Data`, which includes state codes and covers 2016–2024 in my copy. I may use it if a state-level comparison helps the final story, but the current prototype uses `Main_Data`.
+The version of `Main_Data` I used for this prototype contains records from 1979 through 2024. The current NPS catalog describes a data package that also includes 2025, but all my current analysis and charts use **2024**. I also downloaded `Main_State_Data`, although the current prototype uses only `Main_Data`. I may use state-level data if it helps the final story.
 
 NPS defines a recreation visit as a visit, not a count of distinct people. One person can contribute visits on multiple days or at multiple parks. Monthly totals also cannot tell us how crowded a particular trail was on a particular day. I will explain these limitations wherever I discuss what the charts might mean for travel planning.
 
