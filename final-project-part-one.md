@@ -36,40 +36,6 @@ The table and rough page layout below show the proposed order and purpose of the
 | Reader exploration | Interactive park selector with a monthly visitation chart | The pattern for a park the reader chooses |
 | Closing | Short takeaway and a reminder to check current park conditions | How to interpret the data for a trip |
 
-### Rough page layout
-
-<div style="border: 2px dashed #888; padding: 18px; max-width: 720px;">
-
-  <div style="border: 1px solid #aaa; padding: 14px; margin-bottom: 12px;">
-    <strong>1. Opening question</strong>
-    <h3>Is summer the busiest season at every national park?</h3>
-    <p>A short introduction connects the question to planning a trip.</p>
-  </div>
-
-  <div style="border: 1px solid #aaa; padding: 14px; margin-bottom: 12px;">
-    <strong>2. National context</strong>
-    <p>[Line chart: month → total 2024 recreation visits to national parks]</p>
-    <p>What is the overall seasonal pattern?</p>
-  </div>
-
-  <div style="border: 1px solid #aaa; padding: 14px; margin-bottom: 12px;">
-    <strong>3. Four parks, different peak months</strong>
-    <p>[Four-line chart: monthly share of annual visits for Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone]</p>
-    <p>Highlight and explain the different peak months.</p>
-  </div>
-
-  <div style="border: 1px solid #aaa; padding: 14px; margin-bottom: 12px;">
-    <strong>4. Explore a park</strong>
-    <p>[Select a park]</p>
-    <p>[Monthly visitation chart for the selected park]</p>
-  </div>
-
-  <div style="border: 1px solid #aaa; padding: 14px;">
-    <strong>5. Takeaway</strong>
-    <p>Peak season depends on the park. Check current weather, access, and park conditions before planning a visit.</p>
-  </div>
-
-</div>
 
 ### Working prototype: four-park comparison
 
