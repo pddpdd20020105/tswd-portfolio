@@ -26,7 +26,7 @@ My intended audience is people planning a national park trip. The project will b
 
 ## Initial sketches
 
-The table and rough page layout below show the proposed order and purpose of the main sections. These are plans for the final story, so their layout and visual details may change.
+The table below shows the proposed order and purpose of the main sections. The Tableau prototype illustrates the planned four-park comparison. The layout and visual details may change as I develop the final story.
 
 | Story section | Planned page element | What the reader should learn |
 |---|---|---|
