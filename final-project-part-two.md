@@ -24,6 +24,24 @@ The story currently follows this progression:
 
 The Shorthand prototype allows me to test the pacing of the story, the transitions between sections, and how the visualizations work within the narrative rather than evaluating each visualization in isolation.
 
+### Current Shorthand Prototype
+
+The screenshots below show several key stages of the current high-fidelity Shorthand prototype.
+
+**Opening and story setup**
+
+![Opening section of the Shorthand story](images/part2-opening.png)
+
+**National visitation pattern**
+
+![National monthly visitation section](images/part2-national-context.png)
+
+**Four-park comparison**
+
+![Four-park seasonal comparison section](images/part2-four-parks.png)
+
+[View the full interactive Shorthand story](https://carnegiemellon.shorthandstories.com/when-do-people-visit-americas-national-parks/index.html)
+
 ## Draft Data Visualizations
 
 I currently have two high-fidelity Tableau visualizations embedded in the Shorthand prototype.
