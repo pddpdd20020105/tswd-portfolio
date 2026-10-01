@@ -22,8 +22,6 @@ The story currently follows this progression:
 8. **Planned interaction:** The final version will include an individual-park selector so readers can explore monthly visitation patterns for a park of interest.
 9. **Takeaway:** There is no single best time to visit. Historical visitation patterns can be one input into trip planning, but they should be considered alongside current park conditions.
 
-The Shorthand prototype allows me to test the pacing of the story, the transitions between sections, and how the visualizations work within the narrative rather than evaluating each visualization in isolation.
-
 ### Current Shorthand Prototype
 
 The screenshots below show several key stages of the current high-fidelity Shorthand prototype.
@@ -41,6 +39,8 @@ The screenshots below show several key stages of the current high-fidelity Short
 ![Four-park seasonal comparison section](images/part2-four-parks.png)
 
 [View the full interactive Shorthand story](https://carnegiemellon.shorthandstories.com/when-do-people-visit-americas-national-parks/index.html)
+
+The Shorthand prototype allows me to test the pacing of the story, the transitions between sections, and how the visualizations work within the narrative rather than evaluating each visualization in isolation.
 
 ## Draft Data Visualizations
 
