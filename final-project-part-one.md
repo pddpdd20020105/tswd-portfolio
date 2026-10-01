@@ -51,45 +51,19 @@ The table below shows the proposed order and purpose of the main sections. The T
 
 The final story will be organized as a scrolling narrative so that each visualization builds on the previous section.
 
-**Opening**
+**Opening** → **National context** → **Four parks, different seasons** → **Meaning for travelers** → **Explore a park** → **Takeaway**
 
-*Is summer the busiest season at every national park?*
+**Opening:** *Is summer the busiest season at every national park?*
 
-↓
+**National context:** A monthly national visitation chart establishes the overall seasonal pattern.
 
-**National context**
+**Four parks, different seasons:** A four-park comparison shows how Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone have different seasonal patterns.
 
-Monthly national visitation chart
+**Meaning for travelers:** The national pattern does not describe every park equally.
 
-*What does the overall seasonal pattern look like?*
+**Explore a park:** An interactive park selector allows readers to ask, *When is the park I want to visit busy?*
 
-↓
-
-**Four parks, different seasons**
-
-Four-park comparison chart
-
-*Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone show different seasonal patterns.*
-
-↓
-
-**What does this mean for travelers?**
-
-The national pattern does not describe every park equally.
-
-↓
-
-**Explore a park**
-
-Interactive park selector and monthly visitation chart
-
-*When is the park I want to visit busy?*
-
-↓
-
-**Takeaway**
-
-Historical visitation can help with trip planning, but travelers should also consider weather, access, seasonal closures, and current park conditions.
+**Takeaway:** Historical visitation can help with trip planning, but travelers should also consider weather, access, seasonal closures, and current park conditions.
 
 ### Working prototype: four-park comparison
 
