@@ -113,8 +113,6 @@ After all responses are collected, I will look for similarities and differences 
 
 ## AI Acknowledgements
 
-I used ChatGPT to help refine the narrative structure and wording of the Shorthand story, organize the user research protocol, and structure the Part II documentation. I also used ChatGPT to troubleshoot the embedding of Tableau visualizations in Shorthand and to help identify where additional explanatory text or data notes could improve clarity. I reviewed and edited the final content myself and made the final decisions about the story structure, visualizations, research questions, and design.
+## AI Acknowledgements
 
-I used Google Gemini to generate an initial draft of the Google Form used for user research. I reviewed and edited the questions before distributing the survey.
-
-I previously used GitHub Copilot during the development process to help organize project materials and troubleshoot technical implementation where applicable.
+I used ChatGPT, Google Gemini, and Copilot to assist with wording, user research materials, and technical troubleshooting. All AI-generated suggestions were reviewed and edited by me, and I made the final decisions on the content, analysis, visualizations, and design.
