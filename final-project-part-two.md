@@ -2,7 +2,7 @@
 
 # Final Project Part II: When Do People Visit America's National Parks?
 
-In Part I, I developed the initial concept and story structure for a project about seasonal visitation patterns at U.S. national parks. For Part II, I developed that outline into a working Shorthand story, created higher-fidelity data visualizations, and began user research to evaluate whether the narrative and visualizations are clear to potential readers.
+In Part I, I developed the initial concept and story structure for a project about seasonal visitation patterns at U.S. national parks. For Part II, I developed that outline into a working Shorthand story, created higher-fidelity data visualizations, and conducted user research to evaluate whether the narrative and visualizations are clear to potential readers.
 
 [View the current Shorthand story](https://carnegiemellon.shorthandstories.com/when-do-people-visit-americas-national-parks/index.html)
 
@@ -50,13 +50,13 @@ The comparison shows that Yellowstone and Acadia have strong summer peaks, Joshu
 
 My primary audience is people who are interested in visiting U.S. national parks and may use historical visitation patterns as one piece of information when deciding when to travel.
 
-For user research, I am asking at least three people to review the Shorthand prototype and complete a short feedback survey. I am recruiting students and peers who can reasonably represent potential readers of a travel-oriented data story. I am not collecting names or other personally identifiable information.
+For user research, I asked three MISM-BIDA 16-month students to review the Shorthand prototype and complete a short feedback survey. They can reasonably represent potential readers of a travel-oriented data story. I did not collect names or other personally identifiable information.
 
-Participants first view the Shorthand prototype and then complete a short Google Form. The survey focuses on whether the main message is clear, whether the narrative progression is easy to follow, whether the visualizations are understandable, and whether the planned individual-park interaction would be useful.
+Participants first viewed the Shorthand prototype and then completed a short Google Form. The survey focused on whether the main message was clear, whether the narrative progression was easy to follow, whether the visualizations were understandable, and whether the planned individual-park interaction would be useful.
 
 ## Research Goals and Interview Script
 
-The main goal of the research is to determine whether readers understand the intended narrative: national park visitation may peak in summer overall, but individual parks can have very different seasonal patterns. I also want to identify parts of the story or visualizations that need additional explanation before Part III.
+The main goal of the research was to determine whether readers understood the intended narrative: national park visitation may peak in summer overall, but individual parks can have very different seasonal patterns. I also wanted to identify parts of the story or visualizations that need additional explanation before Part III.
 
 | Goal | Questions to Ask |
 |------|------------------|
@@ -71,7 +71,7 @@ The main goal of the research is to determine whether readers understand the int
 
 ## Participant 1
 
-**Background:** A first-year MISM-BIDA student at CMU, one academic year behind me.
+**Background:** MISM-BIDA 16-month student.
 
 The participant found the main message **very clear**, the transition from the national trend to individual parks **very easy to follow**, and the visualizations **very easy to understand**. They also thought the planned interactive park selector would be **very useful**.
 
@@ -83,35 +83,55 @@ A key observation from this participant was:
 
 ## Participant 2
 
-*Feedback pending.*
+**Background:** MISM-BIDA 16-month student.
+
+The participant found the main message **very clear**, the transition from the national trend to individual parks **very easy to follow**, and the visualizations **very easy to understand**. They also considered the planned interactive park selector **very useful**.
+
+Their interpretation of the story was consistent with the intended takeaway. They understood that there is no single peak season for all U.S. national parks and recognized that Yellowstone and Acadia peak in summer, while Joshua Tree and Great Smoky Mountains follow different seasonal patterns.
+
+Their main suggestion was to complete the interactive park selector mentioned near the end of the story. They felt that allowing readers to explore a park they are personally interested in would make the story feel more complete.
+
+A key observation from this participant was:
+
+> "There is no single 'peak season' for all U.S. national parks."
 
 ## Participant 3
 
-*Feedback pending.*
+**Background:** MISM-BIDA 16-month student.
+
+The third participant had a more mixed response. They found the main message **somewhat clear** and the transition from the national trend to individual parks **mostly easy to follow**, but rated the visualizations **neutral** in terms of ease of understanding. They considered the planned interactive park selector **somewhat useful**.
+
+They still understood the central takeaway that visitation patterns are seasonal and that the busiest months vary depending on the park. Their main suggestion was to provide more guidance around the visualizations because some charts contain a lot of information at once.
+
+They recommended adding short explanations, annotations, or highlighted data points so readers can identify the most important patterns more quickly.
+
+A key observation from this participant was:
+
+> "A brief annotation or highlighted data point could make the key pattern easier to understand quickly."
 
 ## Research Synthesis
 
-*This section will be completed after responses from all participants have been collected. I will compare the responses to identify recurring feedback, differences between participants, and issues that should be addressed in Part III.*
+Overall, all three participants understood the central message that national park visitation is seasonal but that individual parks can have different peak periods. Participants 1 and 2 found the narrative and visualizations very easy to follow, while Participant 3 understood the story but found the visualizations less immediately clear.
+
+Two participants independently emphasized that the planned interactive park selector would improve the story and allow readers to explore parks they are personally interested in. This suggests that the interactive exploration should be a priority for the next version.
+
+The main difference in the feedback concerned visualization clarity. Participants 1 and 2 found the charts very easy to understand, while Participant 3 wanted more explanation and visual guidance. Based on this feedback, I plan to preserve the overall narrative structure while improving annotations and explanatory text around the visualizations.
 
 # Identified Changes for Part III
 
-The current planned changes are preliminary because user research is still in progress. I will update this section after reviewing feedback from all participants.
-
 | Research synthesis | Anticipated changes for Part III |
 |--------------------|----------------------------------|
-| Participant 1 found the overall message, narrative transition, and visualizations easy to understand. | Preserve the current overall narrative structure and progression from national trends to individual parks. |
-| Participant 1 considered an individual-park selector very useful. | Develop the planned interactive park selector so readers can explore monthly visitation patterns for a park they are personally interested in. |
-| Participant 1 suggested explaining why seasonal patterns may differ between parks. | Explore whether brief contextual information can be added using appropriate external sources. Avoid attributing causes to weather, road access, or seasonal attractions unless they are supported by evidence. |
-| Additional feedback | *Pending Participants 2 and 3.* |
+| All three participants understood that different parks can have different seasonal visitation patterns. | Keep the current overall narrative structure from the national pattern to individual park comparisons. |
+| Participants 1 and 2 considered the planned individual-park selector very useful. | Develop the interactive park selector so readers can explore monthly visitation patterns for a park they are interested in. |
+| Participant 3 found the visualizations less immediately clear and requested more guidance. | Add or refine short annotations and explanatory text around the visualizations to highlight the most important patterns. |
+| Participant 1 suggested explaining why seasonal patterns may differ between parks. | Consider adding brief contextual information about factors such as weather, access, or seasonal conditions, but only when supported by appropriate sources. |
 
-After all responses are collected, I will look for similarities and differences across participants rather than making changes based on a single response. The final Part III revisions will prioritize issues that appear consistently across the user research while also considering useful individual observations.
+The user research generally supports the current direction of the story, but it also identifies two priorities for Part III: completing the individual-park exploration and making the visualizations easier to interpret quickly.
 
 ## References
 
-- National Park Service Visitor Use Statistics. Recreation visits (TRV), 2024.
-- [Current Shorthand prototype](https://carnegiemellon.shorthandstories.com/when-do-people-visit-americas-national-parks/index.html)
-
-## AI Acknowledgements
+- National Park Service. *NPS Visitor Use Statistics Data Package, 2025*. https://catalog.data.gov/dataset/nps-visitor-use-statistics-data-package-2025
+- National Park Service. *NPS Visitor Use Statistics Definitions*. https://www.nps.gov/subjects/socialscience/nps-visitor-use-statistics-definitions.htm
 
 ## AI Acknowledgements
 
