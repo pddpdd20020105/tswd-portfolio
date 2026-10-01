@@ -1,26 +1,28 @@
 | [home page](https://pddpdd20020105.github.io/tswd-portfolio/) | [data viz examples](https://pddpdd20020105.github.io/tswd-portfolio/dataviz-examples) | [critique by design](https://pddpdd20020105.github.io/tswd-portfolio/critique-by-design) | [MakeoverMonday](https://pddpdd20020105.github.io/tswd-portfolio/makeover-monday) | [final project I](https://pddpdd20020105.github.io/tswd-portfolio/final-project-part-one) | [final project II](https://pddpdd20020105.github.io/tswd-portfolio/final-project-part-two) | [final project III](https://pddpdd20020105.github.io/tswd-portfolio/final-project-part-three) |
 
-# Final Project Part II: When Do People Visit America's National Parks?
+# Final Project Part II: Summer Isn't Peak Season Everywhere
 
-In Part I, I developed the initial concept and story structure for a project about seasonal visitation patterns at U.S. national parks. For Part II, I developed that outline into a working Shorthand story, created higher-fidelity data visualizations, and conducted user research to evaluate whether the narrative and visualizations are clear to potential readers.
+In Part I, I developed the initial concept and story structure for a project about seasonal visitation patterns at U.S. national parks. For Part II, I developed that outline into a working Shorthand story, created higher-fidelity data visualizations, and conducted user research to evaluate whether the narrative and visualizations were clear to potential readers.
+
+As I continued developing the project, I refined the story around a clearer argument: although U.S. national park visitation peaks in summer overall, the national pattern does not represent every individual park. Different parks can have very different seasonal peaks, so park-specific visitation patterns can provide travelers with more useful context than the national pattern alone.
 
 [View the current Shorthand story](https://carnegiemellon.shorthandstories.com/when-do-people-visit-americas-national-parks/index.html)
 
 # Wireframes / Storyboards
 
-For Part II, I developed the storyboard directly in Shorthand rather than creating a separate static wireframe. The current prototype follows a scrolling narrative that moves from a familiar assumption about national park travel to a comparison of individual parks.
+For Part II, I developed the storyboard directly in Shorthand rather than creating a separate static wireframe. The current prototype uses a scrolling narrative that begins with the familiar assumption that summer is peak season, establishes why that assumption appears reasonable at the national level, and then challenges it with park-level data.
 
 The story currently follows this progression:
 
-1. **Opening question:** Is summer really the busiest season across the country?
-2. **Setup:** Summer seems like the obvious answer because of warm weather, long days, and summer vacations.
-3. **National context:** A monthly visitation chart shows that, nationally, recreation visits rise through spring and peak in July.
-4. **Turning point:** The national pattern does not tell the whole story.
-5. **Four-park comparison:** Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone demonstrate different seasonal visitation patterns.
-6. **Meaning for travelers:** The comparison shows that peak season depends on the specific park.
-7. **Transition to exploration:** The story asks readers to think about the park they personally want to visit.
-8. **Planned interaction:** The final version will include an individual-park selector so readers can explore monthly visitation patterns for a park of interest.
-9. **Takeaway:** There is no single best time to visit. Historical visitation patterns can be one input into trip planning, but they should be considered alongside current park conditions.
+1. **Opening claim:** Summer isn't peak season everywhere.
+2. **Setup:** Summer seems like the obvious peak season for national parks.
+3. **National context:** Monthly recreation visits across U.S. national parks rise through spring and reach their highest level in July.
+4. **Turning point:** The national pattern does not tell the whole story when individual parks are examined.
+5. **Individual examples:** Yellowstone follows the national pattern and peaks in July, while Joshua Tree peaks much earlier in March.
+6. **Key takeaway:** Peak visitation depends on the park.
+7. **Broader comparison:** Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone show different seasonal patterns.
+8. **Individual exploration:** Readers can explore park-level visitation patterns rather than relying only on the national pattern.
+9. **Conclusion:** There is no single peak season that describes every national park. Historical visitation can provide useful context for trip planning, but it does not by itself measure weather, road access, or crowding at specific locations.
 
 ### Current Shorthand Prototype
 
@@ -34,31 +36,55 @@ The screenshots below show several key stages of the current high-fidelity Short
 
 ![National monthly visitation section](images/part2-national-context.png)
 
+**Yellowstone: a midsummer peak**
+
+![Yellowstone monthly visitation section](images/part2-yellowstone.png)
+
+**Joshua Tree: an early spring peak**
+
+![Joshua Tree monthly visitation section](images/part2-joshua-tree.png)
+
 **Four-park comparison**
 
 ![Four-park seasonal comparison section](images/part2-four-parks.png)
 
 [View the full interactive Shorthand story](https://carnegiemellon.shorthandstories.com/when-do-people-visit-americas-national-parks/index.html)
 
-The Shorthand prototype allows me to test the pacing of the story, the transitions between sections, and how the visualizations work within the narrative rather than evaluating each visualization in isolation.
+The Shorthand prototype allows me to test the pacing of the story, the transition from the national pattern to park-level evidence, and how the visualizations work together as part of a narrative rather than as isolated charts.
 
 ## Draft Data Visualizations
 
-I currently have two high-fidelity Tableau visualizations embedded in the Shorthand prototype.
+The current Shorthand story uses several Tableau visualizations to move from the national pattern to increasingly specific park-level evidence.
 
 ### National monthly visitation
 
-The first visualization shows monthly recreation visits across U.S. national parks in 2024. It establishes the national pattern and shows a clear summer peak, with July having the highest visitation.
+The first visualization shows monthly recreation visits across U.S. national parks in 2024. It establishes the national pattern: recreation visits rise through spring and reach their highest level in July. This provides the initial evidence for the familiar assumption that summer is peak season for national parks overall.
 
 The chart includes a descriptive title, month and visitation axes, an annotation identifying the July peak, and a data source note.
 
 **Source:** National Park Service Visitor Use Statistics, recreation visits (TRV), 2024.
 
+### Yellowstone monthly visitation
+
+The Yellowstone visualization provides an example of a park that closely follows the national pattern. Yellowstone's monthly share of annual visitation rises sharply in early summer and reaches its highest point in July.
+
+In 2024, **20.9% of Yellowstone's annual recreation visits occurred in July alone**. Highlighting this value helps readers quickly identify the park's strong midsummer peak.
+
+**Source:** National Park Service Visitor Use Statistics, recreation visits (TRV), 2024.
+
+### Joshua Tree monthly visitation
+
+Joshua Tree provides a contrasting example. Its visitation pattern does not follow the national summer peak. Instead, its highest monthly share of annual recreation visits occurs in March and then declines toward the summer months.
+
+In 2024, **13.4% of Joshua Tree's annual recreation visits occurred in March**. Placing this chart after Yellowstone creates a direct contrast between two different seasonal visitation patterns.
+
+**Source:** National Park Service Visitor Use Statistics, recreation visits (TRV), 2024.
+
 ### Four-park seasonal comparison
 
-The second visualization compares Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone. Instead of comparing raw visitor totals, I use each month's share of a park's annual recreation visits. This makes it easier to compare the shapes of the seasonal patterns even though the parks have very different total visitation levels.
+The broader comparison includes Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone. Instead of comparing raw visitor totals, I use each month's share of a park's annual recreation visits. This makes it easier to compare the shapes of the seasonal patterns even though the parks have very different total visitation levels.
 
-The comparison shows that Yellowstone and Acadia have strong summer peaks, Joshua Tree peaks in a cooler month, and Great Smoky Mountains has a broader seasonal pattern with its highest monthly share in October.
+The comparison shows that Yellowstone and Acadia have strong summer peaks, Joshua Tree peaks in March, and Great Smoky Mountains reaches its highest monthly share in October. Together, these examples show why the national summer peak does not describe every individual park.
 
 **Source:** National Park Service Visitor Use Statistics, recreation visits (TRV), 2024.
 
@@ -74,7 +100,7 @@ Participants first viewed the Shorthand prototype and then completed a short Goo
 
 ## Research Goals and Interview Script
 
-The main goal of the research was to determine whether readers understood the intended narrative: national park visitation may peak in summer overall, but individual parks can have very different seasonal patterns. I also wanted to identify parts of the story or visualizations that need additional explanation before Part III.
+The main goal of the research was to determine whether readers understood the intended narrative: national park visitation may peak in summer overall, but individual parks can have very different seasonal patterns. I also wanted to identify parts of the story or visualizations that needed additional explanation.
 
 | Goal | Questions to Ask |
 |------|------------------|
@@ -131,20 +157,24 @@ A key observation from this participant was:
 
 Overall, all three participants understood the central message that national park visitation is seasonal but that individual parks can have different peak periods. Participants 1 and 2 found the narrative and visualizations very easy to follow, while Participant 3 understood the story but found the visualizations less immediately clear.
 
-Two participants independently emphasized that the planned interactive park selector would improve the story and allow readers to explore parks they are personally interested in. This suggests that the interactive exploration should be a priority for the next version.
+Two participants emphasized that an individual-park exploration would make the story more useful by allowing readers to examine parks they are personally interested in. Participant 3 also identified a need for clearer visual guidance, including annotations and highlighted data points.
 
-The main difference in the feedback concerned visualization clarity. Participants 1 and 2 found the charts very easy to understand, while Participant 3 wanted more explanation and visual guidance. Based on this feedback, I plan to preserve the overall narrative structure while improving annotations and explanatory text around the visualizations.
+Based on this feedback, I refined the Shorthand story after the initial user research. I strengthened the framing around the contrast between the national pattern and individual parks, added more explicit park-level examples, and used Yellowstone and Joshua Tree as contrasting cases. I also added clearer annotations and explanatory text around the visualizations so readers can identify the important peaks more quickly.
 
-# Identified Changes for Part III
+These revisions shifted the story from primarily asking when people visit national parks toward making a clearer argument: **the national summer peak can hide important differences in the seasonal visitation patterns of individual parks.**
 
-| Research synthesis | Anticipated changes for Part III |
-|--------------------|----------------------------------|
-| All three participants understood that different parks can have different seasonal visitation patterns. | Keep the current overall narrative structure from the national pattern to individual park comparisons. |
-| Participants 1 and 2 considered the planned individual-park selector very useful. | Develop the interactive park selector so readers can explore monthly visitation patterns for a park they are interested in. |
-| Participant 3 found the visualizations less immediately clear and requested more guidance. | Add or refine short annotations and explanatory text around the visualizations to highlight the most important patterns. |
-| Participant 1 suggested explaining why seasonal patterns may differ between parks. | Consider adding brief contextual information about factors such as weather, access, or seasonal conditions, but only when supported by appropriate sources. |
+# Revisions and Next Steps
 
-The user research generally supports the current direction of the story, but it also identifies two priorities for Part III: completing the individual-park exploration and making the visualizations easier to interpret quickly.
+| Research synthesis | Revisions / next steps |
+|--------------------|------------------------|
+| All three participants understood that different parks can have different seasonal visitation patterns. | Preserve the national-to-park-level narrative while making the central argument more explicit. |
+| Participants 1 and 2 considered individual-park exploration useful. | Include an individual-park exploration so readers can examine park-level patterns rather than relying only on the national trend. |
+| Participant 3 found the visualizations less immediately clear and requested more guidance. | Add clearer annotations, highlighted peak values, and explanatory text around the visualizations. |
+| Participant 1 suggested explaining why seasonal patterns may differ between parks. | Avoid making unsupported causal claims from visitation data alone. Additional explanations about weather, access, or seasonal conditions should only be included when supported by appropriate sources. |
+
+The user research helped clarify both the strengths and limitations of the initial prototype. The revised story retains the national-to-individual structure but makes the central argument more explicit and gives readers more guidance for interpreting the visualizations.
+
+The project does not attempt to identify a universal "best" time to visit a national park. Visitation data shows when recorded recreation visits are higher or lower, but it does not by itself measure weather, road access, or crowding at specific locations. The final story therefore presents historical visitation patterns as one source of information rather than a complete travel recommendation.
 
 ## References
 
