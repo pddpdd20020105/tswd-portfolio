@@ -103,10 +103,12 @@ Shorthand will provide the narrative structure that connects the visualizations 
 
 My GitHub Pages portfolio will document the development process and provide a link to the completed story. Before making travel decisions, readers should check each park's current conditions on the NPS website.
 
+
 ## References
 
 - National Park Service. *NPS Visitor Use Statistics Data Package, 2025*. https://catalog.data.gov/dataset/nps-visitor-use-statistics-data-package-2025
 - National Park Service. *NPS Visitor Use Statistics Definitions*. https://www.nps.gov/subjects/socialscience/nps-visitor-use-statistics-definitions.htm
+- Shorthand. *When Do People Visit America's National Parks?* https://carnegiemellon.shorthandstories.com/when-do-people-visit-americas-national-parks/index.html
 
 ## AI acknowledgements
 
