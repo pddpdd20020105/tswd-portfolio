@@ -6,23 +6,33 @@
 
 ### Project summary
 
-I enjoy traveling, and one question I often have when planning a trip is when to visit. Summer seems like the obvious season for a national park trip, but does every park actually receive the most visits in summer? I want to use National Park Service (NPS) data to explore how visits change throughout the year and how those patterns differ between parks.
+One question many travelers have when planning a national park trip is when to visit. Summer seems like the obvious season for a national park trip, but does every park actually receive the most visits in summer? I want to use National Park Service (NPS) data to explore how visits change throughout the year and how those patterns differ between parks.
 
-My intended audience is people planning a national park trip. The project will begin with the overall national pattern, then compare parks with contrasting peak months. Finally, readers will be able to explore the data for parks that interest them. My goal is to help readers use visitation patterns as one clue when choosing travel dates. Fewer recorded visits do not necessarily mean better weather, open roads, or fewer people at a particular attraction.
+My intended audience is people planning a national park trip. The project will help travelers understand when different parks tend to be busiest and identify potentially less-busy periods for parks they may want to visit. The story will begin with the overall national pattern, then compare parks with contrasting peak months, and finally allow readers to explore the data for parks that interest them.
+
+My goal is not to identify one universal "best" time to visit a national park. Instead, I want readers to use historical visitation patterns as one clue when choosing travel dates. Fewer recorded visits do not necessarily mean better weather, open roads, or fewer people at a particular attraction, so readers should also consider current weather, access, and park conditions.
+
+### Why these four parks?
+
+I selected Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone because they illustrate contrasting seasonal visitation patterns rather than because they are intended to represent every U.S. national park.
+
+Yellowstone and Acadia have strong summer visitation patterns, Joshua Tree receives a larger share of visitors during cooler months, and Great Smoky Mountains has a broader season with a notable fall peak. Together, these examples help demonstrate the central point of the story: the busiest season depends on the park.
 
 ### Project structure and story
 
-**Opening — The travel-planning question.** The page will begin by asking: *Is summer the busiest season at every national park?* This gives readers a practical reason to care about monthly visitation.
+**Opening — The travel-planning question.** The page will begin by asking: *Is summer the busiest season at every national park?* This gives readers a practical reason to care about monthly visitation and connects the project directly to travel planning.
 
-**Context — The national pattern.** A chart of monthly recreation visits to U.S. national parks will show how visits vary throughout 2024. This establishes the pattern that readers might expect to see at every park.
+**Context — The national pattern.** A chart of monthly recreation visits to U.S. national parks will show how visits vary throughout 2024. This establishes the overall seasonal pattern and the expectation that readers might initially apply to every park.
 
 **Surprise — Four parks, different seasons.** I will then compare Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone. My initial analysis of the 2024 data shows that their highest-visit months were August, October, March, and July, respectively. A chart showing each month's share of a park's annual visits will make these different seasonal patterns comparable.
 
-**Exploration — What about a park I want to visit?** The final interactive section will allow readers to select a park and examine its monthly visitation pattern. This turns the story into a starting point for their own travel planning.
+**Meaning for travelers.** The four examples will show why relying only on the national pattern can be misleading. Some parks have concentrated summer peaks, while others receive relatively more visitors during spring, fall, or winter.
 
-**Takeaway.** There is no single peak season that describes every national park. Readers should use historical visitation alongside current information about weather, access, and park conditions.
+**Exploration — What about a park I want to visit?** The final interactive section will allow readers to select a park and examine its monthly visitation pattern. This changes the question from "When are national parks busy?" to "When is the park I want to visit busy?"
 
-**One-sentence message:** National park visitation is seasonal, but the season depends on the park.
+**Takeaway.** There is no single peak season that describes every national park. Readers can use historical visitation data to identify potentially less-busy periods, but they should combine this information with current information about weather, access, seasonal closures, and park conditions.
+
+**One-sentence message:** There is no single "best" season for every national park; travelers can use each park's visitation pattern to make more informed decisions about when to visit.
 
 ## Initial sketches
 
@@ -30,12 +40,56 @@ The table below shows the proposed order and purpose of the main sections. The T
 
 | Story section | Planned page element | What the reader should learn |
 |---|---|---|
-| Opening | Large question: **“Is summer the busiest season at every national park?”** followed by a short travel-planning introduction | Why the question matters |
+| Opening | Large question: **"Is summer the busiest season at every national park?"** followed by a short travel-planning introduction | Why the question matters |
 | National context | Monthly line chart: **month → total recreation visits to national parks in 2024** | The overall seasonal pattern |
 | Four-park comparison | Four colored lines: **month → share of each park's annual visits** | Peak months differ across parks |
+| Meaning for travelers | Short explanatory section connecting the four-park comparison to travel-planning decisions | Why national-level patterns do not apply equally to every park |
 | Reader exploration | Interactive park selector with a monthly visitation chart | The pattern for a park the reader chooses |
 | Closing | Short takeaway and a reminder to check current park conditions | How to interpret the data for a trip |
 
+### Proposed page flow
+
+The final story will be organized as a scrolling narrative so that each visualization builds on the previous section.
+
+**Opening**
+
+*Is summer the busiest season at every national park?*
+
+↓
+
+**National context**
+
+Monthly national visitation chart
+
+*What does the overall seasonal pattern look like?*
+
+↓
+
+**Four parks, different seasons**
+
+Four-park comparison chart
+
+*Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone show different seasonal patterns.*
+
+↓
+
+**What does this mean for travelers?**
+
+The national pattern does not describe every park equally.
+
+↓
+
+**Explore a park**
+
+Interactive park selector and monthly visitation chart
+
+*When is the park I want to visit busy?*
+
+↓
+
+**Takeaway**
+
+Historical visitation can help with trip planning, but travelers should also consider weather, access, seasonal closures, and current park conditions.
 
 ### Working prototype: four-park comparison
 
@@ -69,7 +123,11 @@ NPS defines a recreation visit as a visit, not a count of distinct people. One p
 
 ## Method and medium
 
-I plan to create a standalone, interactive story page linked from my GitHub Pages portfolio. I will prepare monthly summaries from the NPS CSV data and use Tableau Public to create the charts. The page will combine short narrative sections with visualizations so readers can follow the national-to-local story before exploring a park themselves. Before making travel decisions, readers should check each park's current conditions on the NPS website.
+I plan to create the final project as an interactive scrolling story using **Shorthand**, with data visualizations created in **Tableau Public**. I will prepare monthly summaries from the NPS CSV data and use Tableau Public for the national visitation chart, the four-park comparison, and the interactive park-level exploration.
+
+Shorthand will provide the narrative structure that connects the visualizations into a single story. The project will move from the overall national pattern, to contrasting park examples, and finally to an interactive section where readers can explore a park they may want to visit.
+
+My GitHub Pages portfolio will document the development process and provide a link to the completed story. Before making travel decisions, readers should check each park's current conditions on the NPS website.
 
 ## References
 
