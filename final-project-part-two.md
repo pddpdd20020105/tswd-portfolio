@@ -229,4 +229,4 @@ The analysis currently focuses on a single year, 2024. Additional years could be
 
 # AI Acknowledgements
 
-I used ChatGPT to help brainstorm and refine the research question and story structure, assist with data analysis, troubleshoot Tableau, create an initial digital wireframe, organize the user research findings, and revise wording for the Part II documentation. I used Google Gemini to assist with visual design and formatting in the Shorthand prototype. I reviewed the source data and AI-generated suggestions and made the final decisions about the analysis, visualizations, narrative, research interpretation, and design.
+AI Acknowledgement: The project idea and topic are my own. I used ChatGPT to help refine the story structure, analyze data, troubleshoot Tableau, and organize user research findings. I used Google Gemini to assist with Shorthand design. I reviewed all AI-assisted work and made the final decisions.  
