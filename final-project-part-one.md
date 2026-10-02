@@ -120,6 +120,7 @@ This measure is intended as a way to compare spending relative to visitation. It
 | NPS Visitor Use Statistics Data Package, 2024 | https://catalog.data.gov/dataset/nps-visitor-use-statistics-data-package-2024 | Public source of the NPS visitor-use data used for 2024 recreation visits |
 | Visitor Spending Effects Data Package, 2024 | https://catalog.data.gov/dataset/visitor-spending-effects-data-package-2024 | Public source of the visitor spending profiles, visitor segments, and trip characteristics used in the project |
 | NPS Visitor Spending Effects | https://www.nps.gov/subjects/socialscience/vse.htm | NPS information and interactive resources about visitor spending effects |
+| Processed park-level dataset | [Download CSV](data/national_parks_2024_tableau.csv) | Working dataset combining 2024 recreation visits, estimated visitor spending, and calculated spending per visit for the Tableau analysis |
 
 ## Method and medium
 
