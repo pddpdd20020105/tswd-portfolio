@@ -10,7 +10,7 @@ National parks are often compared by how many people visit them. A park with mil
 
 For this project, I want to combine National Park Service (NPS) visitation data with NPS visitor spending data for 2024. I will first examine the relationship between recreation visits and total visitor spending. I will then compare spending per recreation visit across national parks to explore whether parks with more visits also have higher spending on a per-visit basis.
 
-My intended audience is people who are interested in national parks, tourism, and the economic relationship between parks and nearby communities. Rather than treating visitation as the only measure of a park's economic significance, I want readers to consider visitor spending as another way to understand differences among national parks.
+My intended audience is people interested in national park tourism who may assume that the most-visited parks also have the greatest economic significance for nearby communities. The project will challenge that assumption by comparing visitation with visitor spending and showing why visitor counts alone do not capture the full economic story.
 
 My goal is not to argue that parks with higher spending per visit are "better" or more valuable. Recreation visits and visitor spending measure different things. Instead, I want to show why visitation alone does not tell the full economic story.
 
@@ -32,30 +32,38 @@ My goal is not to argue that parks with higher spending per visit are "better" o
 
 ## Initial sketches
 
-The following sketches show my initial ideas for how the data story could develop. These are early Tableau prototypes rather than final visualizations. I plan to refine the visual design, annotations, park comparisons, and story structure as the project develops.
+The following sketches show my initial ideas for how the data story could develop. I begin with a wireframe of the overall story structure and then show two early Tableau prototypes for the main visualizations. These are exploratory sketches rather than final designs. I plan to refine the visual design, annotations, park comparisons, and narrative structure as the project develops.
+
+### Story wireframe
+
+This initial wireframe shows how I currently imagine the final Shorthand story unfolding from the opening question to the final takeaway. It connects the individual visualizations to the larger narrative structure. The layout, wording, and visual design are preliminary and will be refined as the project develops.
+
+![Part I Story Wireframe](images/story.png)
+
+The planned story moves from an intuitive expectation to a complication and then to a closer investigation of selected parks:
+
+**Opening** → **Expectation** → **Complication / Surprise** → **Explore Examples** → **Takeaway**
 
 | Story section | Planned page element | What the reader should learn |
 |---|---|---|
 | Opening | Large question: **"More Visitors, More Money?"** | Introduce the assumption that more visitors should mean more visitor spending |
 | Expectation | Scatter plot: **recreation visits → total visitor spending** | More heavily visited parks generally have higher total visitor spending |
-| Complication | Comparison of **spending per recreation visit** across national parks | The amount of spending associated with each visit varies substantially between parks |
-| Selected examples | Closer comparison of parks with contrasting visitation and spending patterns | Visitor counts alone do not explain all differences in visitor spending |
+| Complication / Surprise | Comparison of **spending per recreation visit** across national parks | The amount of spending associated with each visit varies substantially between parks |
+| Explore examples | Closer comparison of parks with contrasting visitation and spending patterns | Visitor counts alone do not explain all differences in visitor spending |
 | Explanation | Explore trip characteristics and visitor segments for selected parks | Different types of trips may help explain differences in spending patterns |
-| Closing | Short takeaway | Visitation is useful, but it does not tell the full economic story |
+| Takeaway | Short concluding section | Visitation is useful, but it does not tell the full economic story |
 
 ### Proposed page flow
 
 The final story will be organized as a scrolling narrative so that each visualization builds on the previous section.
 
-**Opening** → **Visits and total spending** → **Spending per visit** → **Contrasting parks** → **Possible explanations** → **Takeaway**
-
 **Opening:** *More visitors, more money?*
 
-**Visits and total spending:** A scatter plot establishes the overall relationship between recreation visits and estimated visitor spending.
+**Expectation:** A scatter plot establishes the overall relationship between recreation visits and estimated visitor spending.
 
-**Spending per visit:** The story then changes perspective by comparing visitor spending relative to the number of recreation visits.
+**Complication / Surprise:** The story then changes perspective by comparing visitor spending relative to the number of recreation visits.
 
-**Contrasting parks:** Selected national parks will illustrate how parks with very different visitation levels can also have very different spending patterns.
+**Explore examples:** Selected national parks will illustrate how parks with very different visitation levels can also have very different spending patterns.
 
 **Possible explanations:** Visitor segments and trip characteristics will provide context for why spending patterns may differ.
 
@@ -131,4 +139,4 @@ My GitHub Pages portfolio will document the development process and provide a li
 
 ## AI acknowledgements
 
-The project topic and final decisions are my own. I used ChatGPT to help organize the revised story structure, identify relevant fields in the NPS datasets, combine the visitation and visitor spending data for exploratory analysis, and troubleshoot Tableau. I reviewed the results and made the final decisions about the project argument, visualizations, and narrative.
+The project topic and final decisions are my own. I used ChatGPT to help organize the revised story structure, identify relevant fields in the NPS datasets, combine the visitation and visitor spending data for exploratory analysis, troubleshoot Tableau, and create an initial digital story wireframe based on my proposed narrative structure. I reviewed the results and made the final decisions about the project argument, visualizations, and narrative.
