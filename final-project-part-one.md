@@ -139,4 +139,4 @@ My GitHub Pages portfolio will document the development process and provide a li
 
 ## AI acknowledgements
 
-The project topic and final decisions are my own. I used ChatGPT to help organize the revised story structure, identify relevant fields in the NPS datasets, combine the visitation and visitor spending data for exploratory analysis, troubleshoot Tableau, and create an initial digital story wireframe based on my proposed narrative structure. I reviewed the results and made the final decisions about the project argument, visualizations, and narrative.
+I used ChatGPT to help refine the story structure, assist with data analysis, troubleshoot Tableau, and create the initial digital wireframe. I reviewed the results and made the final decisions about the analysis, visualizations, and narrative.
