@@ -1,186 +1,232 @@
 | [home page](https://pddpdd20020105.github.io/tswd-portfolio/) | [data viz examples](https://pddpdd20020105.github.io/tswd-portfolio/dataviz-examples) | [critique by design](https://pddpdd20020105.github.io/tswd-portfolio/critique-by-design) | [MakeoverMonday](https://pddpdd20020105.github.io/tswd-portfolio/makeover-monday) | [final project I](https://pddpdd20020105.github.io/tswd-portfolio/final-project-part-one) | [final project II](https://pddpdd20020105.github.io/tswd-portfolio/final-project-part-two) | [final project III](https://pddpdd20020105.github.io/tswd-portfolio/final-project-part-three) |
 
-# Final Project Part II: Summer Isn't Peak Season Everywhere
+# Final Project Part II: More Visitors, More Money?
 
-In Part I, I developed the initial concept and story structure for a project about seasonal visitation patterns at U.S. national parks. For Part II, I developed that outline into a working Shorthand story, created higher-fidelity data visualizations, and conducted user research to evaluate whether the narrative and visualizations were clear to potential readers.
+In Part I, I developed the initial concept for a data story examining the relationship between national park visitation and visitor spending. The project begins with an intuitive expectation: parks with more recreation visits should generally be associated with more total visitor spending. However, looking only at total visitation can hide substantial differences in how much visitor spending is associated with each recreation visit.
 
-As I continued developing the project, I refined the story around a clearer argument: although U.S. national park visitation peaks in summer overall, the national pattern does not represent every individual park. Different parks can have very different seasonal peaks, so park-specific visitation patterns can provide travelers with more useful context than the national pattern alone.
+For Part II, I developed the initial outline and sketches into a working Shorthand story, created higher-fidelity Tableau visualizations, and conducted user research with three potential readers. The purpose of this stage was to test whether the argument was understandable, whether the transition from total visitor spending to spending per recreation visit was convincing, and whether the visualizations supported the narrative.
 
-[View the current Shorthand story](https://carnegiemellon.shorthandstories.com/when-do-people-visit-americas-national-parks/index.html)
+[View the current Shorthand story](https://carnegiemellon.shorthandstories.com/more-visitors-more-money/index.html)
 
 # Wireframes / Storyboards
 
-For Part II, I developed the storyboard directly in Shorthand rather than creating a separate static wireframe. The current prototype uses a scrolling narrative that begins with the familiar assumption that summer is peak season, establishes why that assumption appears reasonable at the national level, and then challenges it with park-level data.
+The Part II prototype develops the wireframe from Part I into a scrolling Shorthand story. The narrative is structured around moving the reader from an intuitive expectation to a more complicated interpretation of national park visitation and visitor spending.
 
 The story currently follows this progression:
 
-1. **Opening claim:** Summer isn't peak season everywhere.
-2. **Setup:** Summer seems like the obvious peak season for national parks.
-3. **National context:** Monthly recreation visits across U.S. national parks rise through spring and reach their highest level in July.
-4. **Turning point:** The national pattern does not tell the whole story when individual parks are examined.
-5. **Individual examples:** Yellowstone follows the national pattern and peaks in July, while Joshua Tree peaks much earlier in March.
-6. **Key takeaway:** Peak visitation depends on the park.
-7. **Broader comparison:** Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone show different seasonal patterns.
-8. **Individual exploration:** Readers can explore park-level visitation patterns rather than relying only on the national pattern.
-9. **Conclusion:** There is no single peak season that describes every national park. Historical visitation can provide useful context for trip planning, but it does not by itself measure weather, road access, or crowding at specific locations.
+1. **Opening question — More visitors, more money?**  
+   Introduce the assumption that heavily visited national parks should also be associated with more visitor spending.
 
-### Current Shorthand Prototype
+2. **Expectation — More visits are associated with more total spending.**  
+   A scatter plot compares 2024 recreation visits with estimated visitor spending across national parks and establishes the overall positive relationship.
 
-The screenshots below show several key stages of the current high-fidelity Shorthand prototype.
+3. **Complication — Total spending is only part of the story.**  
+   The story introduces spending per recreation visit as another way to compare parks with very different visitation levels.
 
-**Opening and story setup**
+4. **Surprise — The picture changes on a per-visit basis.**  
+   A park-level comparison shows substantial variation in estimated spending per recreation visit, including several relatively low-visitation parks with very high values.
+
+5. **Exploration — What might help explain the difference?**  
+   The story looks more closely at length of stay for selected parks as one possible clue. Longer stays may create more opportunities for spending on lodging, food, transportation, and other trip expenses.
+
+6. **Takeaway — Visitor counts are only part of the story.**  
+   More recreation visits are generally associated with more total visitor spending, but visitation alone does not capture how economically different those visits may be.
+
+## Current Shorthand Prototype
+
+The current prototype uses Shorthand to connect the visualizations through a scrolling narrative. Rather than presenting the Tableau charts as independent graphics, each visualization answers a question created by the previous section.
+
+### Opening and story setup
 
 ![Opening section of the Shorthand story](images/part2-opening.png)
 
-**National visitation pattern**
+### Visits and total visitor spending
 
-![National monthly visitation section](images/part2-national-context.png)
+![Recreation visits and visitor spending section](images/part2-visits-spending.png)
 
-**Yellowstone: a midsummer peak**
+### Spending per recreation visit
 
-![Yellowstone monthly visitation section](images/part2-yellowstone.png)
+![Spending per recreation visit section](images/part2-spending-per-visit.png)
 
-**Joshua Tree: an early spring peak**
+### Exploring length of stay
 
-![Joshua Tree monthly visitation section](images/part2-joshua-tree.png)
+![Length of stay section](images/part2-length-of-stay.png)
 
-**Four-park comparison**
+### Final takeaway
 
-![Four-park seasonal comparison section](images/part2-four-parks.png)
+![Final takeaway section](images/part2-takeaway.png)
 
-[View the full interactive Shorthand story](https://carnegiemellon.shorthandstories.com/when-do-people-visit-americas-national-parks/index.html)
+[View the full interactive Shorthand story](https://carnegiemellon.shorthandstories.com/more-visitors-more-money/index.html)
 
-The Shorthand prototype allows me to test the pacing of the story, the transition from the national pattern to park-level evidence, and how the visualizations work together as part of a narrative rather than as isolated charts.
+The Shorthand prototype allows me to test the pacing of the argument and whether each visualization provides enough evidence for the next step in the story. The current design intentionally moves from the familiar measure of visitation, to total spending, to spending per visit, and finally to one trip characteristic that may provide context for the differences between parks.
 
-## Draft Data Visualizations
+# Draft Data Visualizations
 
-The current Shorthand story uses several Tableau visualizations to move from the national pattern to increasingly specific park-level evidence.
+For Part II, I developed the exploratory Tableau sketches from Part I into higher-fidelity draft visualizations. The charts use real 2024 National Park Service data and include more deliberate titles, labels, annotations, and visual emphasis.
 
-### National monthly visitation
+## Recreation Visits vs. Visitor Spending
 
-The first visualization shows monthly recreation visits across U.S. national parks in 2024. It establishes the national pattern: recreation visits rise through spring and reach their highest level in July. This provides the initial evidence for the familiar assumption that summer is peak season for national parks overall.
+The first visualization compares recreation visits with estimated visitor spending across U.S. national parks in 2024.
 
-The chart includes a descriptive title, month and visitation axes, an annotation identifying the July peak, and a data source note.
+The overall pattern is positive: parks receiving more recreation visits generally also have more total visitor spending. This supports the intuitive expectation introduced at the beginning of the story. At the same time, individual parks do not fall perfectly along the same pattern. Parks such as Denali and Grand Teton show that parks with similar levels of visitation can be associated with different levels of visitor spending.
 
-**Source:** National Park Service Visitor Use Statistics, recreation visits (TRV), 2024.
+This visualization establishes the baseline relationship before the story changes perspective from total spending to spending per recreation visit.
 
-### Yellowstone monthly visitation
+[View the interactive Tableau visualization](https://public.tableau.com/views/PartIIHigh-FidelityDraftRecreationVisitsvs_VisitorSpending/P2VisitsvsSpending?:showVizHome=no)
 
-The Yellowstone visualization provides an example of a park that closely follows the national pattern. Yellowstone's monthly share of annual visitation rises sharply in early summer and reaches its highest point in July.
+**Source:** National Park Service, 2024 Visitor Use Statistics and Visitor Spending Effects.
 
-In 2024, **20.9% of Yellowstone's annual recreation visits occurred in July alone**. Highlighting this value helps readers quickly identify the park's strong midsummer peak.
+## Spending per Recreation Visit
 
-**Source:** National Park Service Visitor Use Statistics, recreation visits (TRV), 2024.
+The second visualization divides estimated visitor spending by recreation visits:
 
-### Joshua Tree monthly visitation
+**Spending per recreation visit = Estimated visitor spending / Recreation visits**
 
-Joshua Tree provides a contrasting example. Its visitation pattern does not follow the national summer peak. Instead, its highest monthly share of annual recreation visits occurs in March and then declines toward the summer months.
+This comparison reveals substantial variation between national parks. Several parks, including Lake Clark, Katmai, Wrangell–St. Elias, and Gates of the Arctic, stand far above much of the distribution in estimated spending per recreation visit. Meanwhile, some heavily visited parks fall much closer to the middle of the distribution.
 
-In 2024, **13.4% of Joshua Tree's annual recreation visits occurred in March**. Placing this chart after Yellowstone creates a direct contrast between two different seasonal visitation patterns.
+The purpose of this visualization is not to claim that parks with higher spending per visit are more valuable. Instead, it demonstrates that total visitation alone does not describe the differences in visitor spending associated with different park trips.
 
-**Source:** National Park Service Visitor Use Statistics, recreation visits (TRV), 2024.
+[View the interactive Tableau visualization](https://public.tableau.com/views/PartIIHigh-FidelityDraftNationalParkVisitationandVisitorSpending/P2SpendingperVisit?:showVizHome=no)
 
-### Four-park seasonal comparison
+**Source:** National Park Service, 2024 Visitor Use Statistics and Visitor Spending Effects.
 
-The broader comparison includes Acadia, Great Smoky Mountains, Joshua Tree, and Yellowstone. Instead of comparing raw visitor totals, I use each month's share of a park's annual recreation visits. This makes it easier to compare the shapes of the seasonal patterns even though the parks have very different total visitation levels.
+## Length of Stay at Selected National Parks
 
-The comparison shows that Yellowstone and Acadia have strong summer peaks, Joshua Tree peaks in March, and Great Smoky Mountains reaches its highest monthly share in October. Together, these examples show why the national summer peak does not describe every individual park.
+The third visualization explores one possible clue behind the differences in spending per recreation visit: length of stay.
 
-**Source:** National Park Service Visitor Use Statistics, recreation visits (TRV), 2024.
+Among the selected LodgeOut visitor profiles, average length of stay ranges from approximately 1.9 days at Joshua Tree to 3.7 days at several of the selected higher-spending-per-visit parks. Longer stays may create more opportunities for spending on lodging, food, transportation, and other trip expenses.
+
+This comparison should not be interpreted as evidence that length of stay alone causes higher spending per visit. Instead, it provides an example of how the characteristics of a park trip can differ substantially even when each trip is counted as a recreation visit.
+
+[View the interactive Tableau visualization](https://public.tableau.com/views/PartIILengthofStayatSelectedNationalParks/P2LengthofStay?:showVizHome=no)
+
+**Source:** National Park Service, 2024 Visitor Spending Effects data.
 
 # User Research
 
-## Target Audience and Recruitment Approach
+## Research Goal
 
-My primary audience is people who are interested in visiting U.S. national parks and may use historical visitation patterns as one piece of information when deciding when to travel.
+The primary goal of the user research was to determine whether readers understood the central argument of the revised story:
 
-For user research, I asked three MISM-BIDA 16-month students to review the Shorthand prototype and complete a short feedback survey. They can reasonably represent potential readers of a travel-oriented data story. I did not collect names or other personally identifiable information.
+**More recreation visits are generally associated with more total visitor spending, but visitation alone does not tell the full economic story.**
 
-Participants first viewed the Shorthand prototype and then completed a short Google Form. The survey focused on whether the main message was clear, whether the narrative progression was easy to follow, whether the visualizations were understandable, and whether the planned individual-park interaction would be useful.
+I also wanted to determine whether the transition from total visitor spending to spending per recreation visit was easy to follow, whether the Tableau visualizations were understandable, and whether the explanation involving trip characteristics provided useful context without implying unsupported causation.
 
-## Research Goals and Interview Script
+## Target Audience
 
-The main goal of the research was to determine whether readers understood the intended narrative: national park visitation may peak in summer overall, but individual parks can have very different seasonal patterns. I also wanted to identify parts of the story or visualizations that needed additional explanation.
+My intended audience is people interested in national parks, tourism, and the economic relationship between parks and nearby communities. In particular, the story is designed for readers who may initially assume that the most heavily visited parks necessarily tell the largest economic story.
 
-| Goal | Questions to Ask |
-|------|------------------|
-| Evaluate the clarity of the overall narrative | How clear is the main message of the story? |
-| Evaluate the story structure | Is the transition from the national trend to individual parks easy to follow? |
-| Evaluate visualization readability | How easy are the data visualizations to understand? |
-| Evaluate the planned interaction | Do you think an interactive individual-park selector would be useful? |
-| Check whether readers understand the intended conclusion | What do you think the main takeaway of the story is? |
-| Identify opportunities for improvement | What is one suggestion you have for improving the story? |
+The project does not require readers to have prior knowledge of National Park Service visitor spending data or economic analysis, so the narrative and visualizations need to make the central concepts understandable to a general audience.
 
-# Interview Findings
+## Recruitment Approach
+
+I asked three students to independently review the current Shorthand prototype and complete a short feedback survey. These participants represent potential readers who are comfortable reading data visualizations but do not need specialized knowledge of the National Park Service visitor spending methodology.
+
+No names or other personally identifiable information were collected or included in this writeup.
+
+Participants first viewed the Shorthand story and then completed a Google Form. The survey included both structured questions and open-ended questions so that I could compare responses while also collecting specific observations and suggestions.
+
+## User Research Protocol / Interview Script
+
+| Research goal | Question |
+|---|---|
+| Evaluate clarity of the central argument | How clear is the main message of the story? |
+| Test the reader's initial assumption | Before viewing this story, did you expect parks with more visitors to also have more visitor spending? |
+| Evaluate narrative progression | Was the transition from total visitor spending to spending per recreation visit easy to follow? |
+| Evaluate visualization readability | How easy were the data visualizations to understand? |
+| Evaluate whether the comparison changes the reader's interpretation | Did the spending-per-visit comparison change or add to your understanding of the relationship between park visitation and visitor spending? |
+| Check whether the intended argument was understood | What do you think the main takeaway of the story is? |
+| Identify unclear sections | Was there any part of the story that was confusing or difficult to follow? If so, what? |
+| Identify opportunities for revision | What is one suggestion you have for improving the story? |
+
+# User Research Findings
 
 ## Participant 1
 
-**Background:** MISM-BIDA 16-month student.
+**Background:** Graduate student and potential reader of a general-interest data story.
 
-The participant found the main message **very clear**, the transition from the national trend to individual parks **very easy to follow**, and the visualizations **very easy to understand**. They also thought the planned interactive park selector would be **very useful**.
+Participant 1 rated the main message **very clear** and the transition from total visitor spending to spending per recreation visit **very easy** to follow. They rated the visualizations **easy** to understand and said the spending-per-visit comparison significantly added to their understanding.
 
-Their interpretation of the main takeaway closely matched the intended narrative: although national park visitation generally peaks during the summer, individual parks can have very different seasonal patterns. They suggested adding the interactive park selector so readers can investigate parks they are personally interested in. They also suggested briefly providing context for why different parks may peak in different seasons, such as weather, road accessibility, or seasonal attractions.
+Their interpretation of the takeaway closely matched the intended argument:
 
-A key observation from this participant was:
+> "A park being popular doesn't mean it brings in the most money per visitor. Some less-visited parks get much more spending from each visit."
 
-> "Looking at each park separately gives visitors a much better idea of when it is actually busiest."
+The participant identified the transition into the trip-characteristics section as the least clear part of the story. In particular, the phrase **"LodgeOut visitors"** was not defined, and the section introducing length of stay, visitor origin, and spending patterns felt abrupt.
+
+They suggested adding a plain-language example and defining unfamiliar terms when they first appear.
 
 ## Participant 2
 
-**Background:** MISM-BIDA 16-month student.
+**Background:** Graduate student and potential reader of a general-interest data story.
 
-The participant found the main message **very clear**, the transition from the national trend to individual parks **very easy to follow**, and the visualizations **very easy to understand**. They also considered the planned interactive park selector **very useful**.
+Participant 2 rated the main message **somewhat clear**, the transition to spending per recreation visit **mostly easy**, and the visualizations **neutral** in terms of ease of understanding. They said the spending-per-visit comparison somewhat changed or added to their understanding.
 
-Their interpretation of the story was consistent with the intended takeaway. They understood that there is no single peak season for all U.S. national parks and recognized that Yellowstone and Acadia peak in summer, while Joshua Tree and Great Smoky Mountains follow different seasonal patterns.
+Their takeaway was:
 
-Their main suggestion was to complete the interactive park selector mentioned near the end of the story. They felt that allowing readers to explore a park they are personally interested in would make the story feel more complete.
+> "Visitation count alone is a weak proxy for economic contribution. Total spending scales with visits, but spending per visit varies widely, and trip characteristics like length of stay may help explain why."
 
-A key observation from this participant was:
+This participant raised several important questions about the explanatory section. They noted that the story used a set of "selected parks" without explaining why those parks were selected. They also noticed that visitor origin and spending patterns were introduced as possible explanations but were not actually analyzed later in the current draft.
 
-> "There is no single 'peak season' for all U.S. national parks."
+They recommended either adding those analyses or narrowing the section to the trip characteristic actually examined. They also suggested adding clearer definitions and a short note about the limitations of the 2024 data and spending estimates.
 
 ## Participant 3
 
-**Background:** MISM-BIDA 16-month student.
+**Background:** Graduate student and potential reader of a general-interest data story.
 
-The third participant had a more mixed response. They found the main message **somewhat clear** and the transition from the national trend to individual parks **mostly easy to follow**, but rated the visualizations **neutral** in terms of ease of understanding. They considered the planned interactive park selector **somewhat useful**.
+Participant 3 rated the main message **very clear**, the transition **mostly easy**, and the visualizations **easy** to understand. They said the spending-per-visit comparison somewhat added to their understanding.
 
-They still understood the central takeaway that visitation patterns are seasonal and that the busiest months vary depending on the park. Their main suggestion was to provide more guidance around the visualizations because some charts contain a lot of information at once.
+Their interpretation emphasized the differences between types of park trips:
 
-They recommended adding short explanations, annotations, or highlighted data points so readers can identify the most important patterns more quickly.
+> "The kind of trip matters more than the crowd size. Remote parks like those in Alaska draw fewer people, but each visit involves longer stays and bigger trip costs, so they matter a lot to local economies."
 
-A key observation from this participant was:
+This interpretation goes somewhat further than what the current analysis can establish. The project shows associations between visitation, spending, and selected trip characteristics, but it does not establish that remoteness or longer stays cause higher spending per recreation visit.
 
-> "A brief annotation or highlighted data point could make the key pattern easier to understand quickly."
+This participant also questioned whether the spending figures include local residents or only out-of-area visitors and whether the small visitation counts of remote parks could affect the per-visit measure. They suggested adding regional context, such as comparing Alaska parks with parks in the lower 48.
 
-## Research Synthesis
+# Research Synthesis
 
-Overall, all three participants understood the central message that national park visitation is seasonal but that individual parks can have different peak periods. Participants 1 and 2 found the narrative and visualizations very easy to follow, while Participant 3 understood the story but found the visualizations less immediately clear.
+The three participants generally understood the central argument. Two rated the main message very clear and one rated it somewhat clear. All three recognized that total visitation alone does not capture the differences in visitor spending between national parks.
 
-Two participants emphasized that an individual-park exploration would make the story more useful by allowing readers to examine parks they are personally interested in. Participant 3 also identified a need for clearer visual guidance, including annotations and highlighted data points.
+The spending-per-recreation-visit comparison was also useful to readers. All three participants reported that it changed or added to their understanding to at least some degree. This suggests that the transition from total spending to a per-visit perspective is an important part of the story and should remain in the final version.
 
-Based on this feedback, I refined the Shorthand story after the initial user research. I strengthened the framing around the contrast between the national pattern and individual parks, added more explicit park-level examples, and used Yellowstone and Joshua Tree as contrasting cases. I also added clearer annotations and explanatory text around the visualizations so readers can identify the important peaks more quickly.
+However, the feedback also revealed a consistent weakness in the explanatory section after the spending-per-visit visualization. Participants wanted more context about what the selected parks represented, what terms such as "LodgeOut" meant, and what could reasonably be concluded from the length-of-stay comparison.
 
-These revisions shifted the story from primarily asking when people visit national parks toward making a clearer argument: **the national summer peak can hide important differences in the seasonal visitation patterns of individual parks.**
+Another important finding was that the current draft introduced visitor origin and spending patterns without actually analyzing them. This created an expectation that the story did not fulfill. Rather than adding several new analyses simply because they were previewed, I plan to narrow this section so that it focuses on the evidence that is actually shown.
+
+Finally, the responses demonstrate the importance of avoiding causal overstatement. Length of stay can provide context for differences between park trips, but the current analysis does not demonstrate that longer stays, remoteness, or any other single factor causes higher spending per recreation visit.
 
 # Revisions and Next Steps
 
-| Research synthesis | Revisions / next steps |
-|--------------------|------------------------|
-| All three participants understood that different parks can have different seasonal visitation patterns. | Preserve the national-to-park-level narrative while making the central argument more explicit. |
-| Participants 1 and 2 considered individual-park exploration useful. | Include an individual-park exploration so readers can examine park-level patterns rather than relying only on the national trend. |
-| Participant 3 found the visualizations less immediately clear and requested more guidance. | Add clearer annotations, highlighted peak values, and explanatory text around the visualizations. |
-| Participant 1 suggested explaining why seasonal patterns may differ between parks. | Avoid making unsupported causal claims from visitation data alone. Additional explanations about weather, access, or seasonal conditions should only be included when supported by appropriate sources. |
+| Research finding | Planned revision |
+|---|---|
+| All three participants understood the central argument. | Preserve the overall progression from visitation → total spending → spending per visit → trip characteristics → takeaway. |
+| "LodgeOut" was unclear to at least one participant. | Define the visitor segment in plain language when it first appears. |
+| The rationale for the selected parks was unclear. | Add a short explanation describing why the comparison parks were selected. |
+| Visitor origin and spending patterns were introduced but not analyzed. | Remove these unfinished previews from the current narrative or add supporting analysis only if it meaningfully strengthens the final story. |
+| Participants requested more context about the data. | Add a short methodology/limitations note explaining the 2024 time period, recreation visits, and estimated visitor spending. |
+| Some participant interpretations implied causation. | Strengthen wording such as "may provide one clue" and explicitly state that the length-of-stay comparison does not establish causation. |
+| One participant suggested regional comparison. | Consider a regional comparison for Part III if it strengthens the argument without distracting from the central story. |
 
-The user research helped clarify both the strengths and limitations of the initial prototype. The revised story retains the national-to-individual structure but makes the central argument more explicit and gives readers more guidance for interpreting the visualizations.
+The most important revision for the next iteration is therefore not to add more visualizations, but to make the explanatory section more precise. The final story should clearly distinguish between what the data demonstrates and what it only suggests.
 
-The project does not attempt to identify a universal "best" time to visit a national park. Visitation data shows when recorded recreation visits are higher or lower, but it does not by itself measure weather, road access, or crowding at specific locations. The final story therefore presents historical visitation patterns as one source of information rather than a complete travel recommendation.
+# Data and Interpretation Notes
 
-## References
+The analysis uses 2024 National Park Service Visitor Use Statistics and Visitor Spending Effects data.
 
-- National Park Service. *NPS Visitor Use Statistics Data Package, 2025*. https://catalog.data.gov/dataset/nps-visitor-use-statistics-data-package-2025
-- National Park Service. *NPS Visitor Use Statistics Definitions*. https://www.nps.gov/subjects/socialscience/nps-visitor-use-statistics-definitions.htm
+A **recreation visit** represents a recorded visit rather than a unique individual person. The spending-per-visit measure used in this project is calculated as:
 
-## AI Acknowledgements
+**Estimated visitor spending / Recreation visits**
 
-I used ChatGPT, Google Gemini, and Copilot to assist with wording, user research materials, and technical troubleshooting. All AI-generated suggestions were reviewed and edited by me, and I made the final decisions on the content, analysis, visualizations, and design.
+This derived measure is used to compare spending relative to visitation. It should not be interpreted as the actual amount spent by every individual visitor, as a causal measure of economic impact, or as a measure of the quality or value of a national park.
+
+The analysis currently focuses on a single year, 2024. Additional years could be examined in future iterations to determine whether the differences shown here persist over time.
+
+# References
+
+- National Park Service. *NPS Visitor Use Statistics Data Package, 2024*. Data.gov.
+- National Park Service. *Visitor Spending Effects Data Package, 2024*. Data.gov.
+- National Park Service. *2024 National Park Visitor Spending Effects: Economic Contributions to Local Communities, States, and the Nation.*
+
+# AI Acknowledgements
+
+I used ChatGPT to help brainstorm and refine the research question and story structure, assist with data analysis, troubleshoot Tableau, create an initial digital wireframe, organize the user research findings, and revise wording for the Part II documentation. I used Google Gemini to assist with visual design and formatting in the Shorthand prototype. I reviewed the source data and AI-generated suggestions and made the final decisions about the analysis, visualizations, narrative, research interpretation, and design.
