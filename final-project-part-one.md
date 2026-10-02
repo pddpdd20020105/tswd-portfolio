@@ -140,4 +140,4 @@ My GitHub Pages portfolio will document the development process and provide a li
 
 ## AI acknowledgements
 
-I used ChatGPT to help refine the story structure, assist with data analysis, troubleshoot Tableau, and create the initial digital wireframe. I reviewed the results and made the final decisions about the analysis, visualizations, and narrative.
+I developed the project idea and topic myself. I used ChatGPT to help refine the story structure, assist with data analysis, troubleshoot Tableau, and create the initial digital wireframe. I reviewed the results and made the final decisions about the analysis, visualizations, and narrative.
