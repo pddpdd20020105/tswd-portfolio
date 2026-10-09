@@ -56,7 +56,7 @@ This project uses 2024 National Park Service Visitor Use Statistics and Visitor 
 - National Park Service. *Visitor Spending Effects Data Package, 2024*. Data.gov.
 - National Park Service. *2024 National Park Visitor Spending Effects: Economic Contributions to Local Communities, States, and the Nation.*
 
-Detailed source information is also provided with the visualizations in the final Shorthand story. Additional information about the datasets, derived spending-per-visit measure, and interpretation limitations is documented in Parts I and II of the project.
+The original dataset links, processed data, methodology, and interpretation limitations are documented in [Part I](https://pddpdd20020105.github.io/tswd-portfolio/final-project-part-one) and [Part II](https://pddpdd20020105.github.io/tswd-portfolio/final-project-part-two).
 
 ## AI acknowledgements
 
